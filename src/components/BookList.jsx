@@ -1,25 +1,54 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-import BookItem from './BookItem';
+import Book from './Book';
+import AddBook from './AddBook';
 
-const BookList = ({ booksProps }) => (
-  <ul>
-    {booksProps.map((book) => (
-      <BookItem key={book.id} itemProp={book} />
-    ))}
-  </ul>
-);
+function Booklist() {
+  const books = [
+    {
+      id: 1,
+      title: 'Book 1',
+      category: 'Action',
+      author: ' Blessing Michael',
+      completed: '65%',
+      currentChapter: 'Chapter 3',
+    },
+    {
+      id: 2,
+      title: 'Book 2',
+      category: 'Fiction',
+      author: 'Martin Luther',
+      completed: '80%',
+      currentChapter: 'Chapter 1',
+    },
 
-BookList.propTypes = {
-  booksProps: PropTypes.arrayOf(
-    PropTypes.shape({
-      id: PropTypes.number.isRequired,
-      category: PropTypes.string.isRequired,
-      title: PropTypes.string.isRequired,
-      author: PropTypes.string.isRequired,
+    {
+      id: 3,
+      title: 'Book 3',
+      category: 'Economy',
+      author: 'Quin Din',
+      completed: '99%',
+      currentChapter: 'Chapter 10',
+    },
 
-    }),
-  ).isRequired,
-};
+  ];
 
-export default BookList;
+  return (
+    <div>
+      <ul className="books">
+        {books.map((book) => (
+          <Book
+            key={book.id}
+            title={book.title}
+            author={book.author}
+            category={book.category}
+          />
+        ))}
+      </ul>
+      <div>
+        <AddBook />
+      </div>
+    </div>
+  );
+}
+
+export default Booklist;

@@ -3,7 +3,9 @@ import PropTypes from 'prop-types';
 import { useDispatch } from 'react-redux';
 import { removeBook } from '../redux/books/bookSlice';
 
-function Book({ title, author, category, item_id }) {
+function Book({
+  title, author, category, item_id,
+}) {
   const dispatch = useDispatch();
 
   const handleRemove = () => {

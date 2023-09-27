@@ -14,7 +14,7 @@ function AddBook() {
         title,
         author,
         category: 'Fiction',
-        item_id: Date.now().toString(),
+        itemId: Date.now().toString(),
       }));
       setTitle('');
       setAuthor('');

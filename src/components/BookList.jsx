@@ -6,21 +6,27 @@ function Booklist() {
   const books = [
     {
       id: 1,
-      title: 'The Hunger Games',
-      author: 'Suzanne Collins',
+      title: 'Book 1',
       category: 'Action',
+      author: ' Blessing Michael',
+      completed: '65%',
+      currentChapter: 'Chapter 3',
     },
     {
       id: 2,
-      title: 'Dune',
-      author: 'Frank Herbert',
-      category: 'Science Fiction',
+      title: 'Book 2',
+      category: 'Fiction',
+      author: 'Martin Luther',
+      completed: '80%',
+      currentChapter: 'Chapter 1',
     },
     {
       id: 3,
-      title: 'Capital in the Twenty-First Century',
-      author: 'Suzanne Collins',
+      title: 'Book 3',
       category: 'Economy',
+      author: 'Quin Din',
+      completed: '99%',
+      currentChapter: 'Chapter 10',
     },
   ];
 

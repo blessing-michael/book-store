@@ -5,7 +5,7 @@
 
   <br/>
 
-  <h3><b>Math Magicians</b></h3>
+  <h3><b>Book Store</b></h3>
 
 </div>
 

@@ -210,7 +210,7 @@ ul {
   font-style: normal;
   line-height: normal;
   letter-spacing: -0.4px;
- color: var(--black-color);
+  color: var(--black-color);
 }
 
 .Update-progress {

@@ -9,6 +9,7 @@
   --white-two: #fff;
   --cool-blue: #4386bf;
   --very-light-pink: #c4c4c4;
+  --black-color: #121212;
 }
 
 body {
@@ -42,7 +43,7 @@ nav a {
   font-size: 0.813rem;
   font-weight: normal;
   letter-spacing: 1.9px;
-  color: #121212;
+  color: var(--black-color);
   opacity: 0.5;
 }
 
@@ -111,7 +112,7 @@ button[type='submit'] {
   font-family: var(--Montserrat);
   font-size: 1.2rem;
   font-weight: bold;
-  color: #121212;
+  color: var(--black-color);
 }
 
 .book-title {
@@ -122,7 +123,7 @@ button[type='submit'] {
   font-style: normal;
   line-height: normal;
   letter-spacing: -0.2px;
-  color: #121212;
+  color: var(--black-color);
   font-family: var(--RobotoSlab);
 }
 
@@ -190,7 +191,7 @@ ul {
   font-style: normal;
   line-height: normal;
   letter-spacing: normal;
-  color: #121212;
+  color: var(--black-color);
   opacity: 0.5;
 }
 
@@ -209,7 +210,7 @@ ul {
   font-style: normal;
   line-height: normal;
   letter-spacing: -0.4px;
-  color: #121212;
+ color: var(--black-color);
 }
 
 .Update-progress {
@@ -259,7 +260,7 @@ ul {
   font-style: normal;
   line-height: normal;
   letter-spacing: normal;
-  color: #121212;
+  color: var(--black-color);
 }
 
 .level-one {

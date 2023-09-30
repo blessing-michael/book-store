@@ -132,7 +132,7 @@ I would like to give credit to microverse for this amazing project
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/blessing-michael/portfolio/blob/blessing-michael-patch-1/LICENSE) licensed.
+This project is [MIT](https://github.com/blessing-michael/book-store/blob/styling/LICENSE.txt) licensed.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
